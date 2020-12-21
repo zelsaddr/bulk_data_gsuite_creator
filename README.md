@@ -1,2 +1,2 @@
 # Upload result.csv to gsuite users page
-Generate Gsuite Random Users Data Automatically
+Generate Random Gsuite Users Data Automatically
