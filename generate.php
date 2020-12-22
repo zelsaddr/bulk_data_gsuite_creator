@@ -1153,8 +1153,8 @@ $last_names = array(
   'Young',
   'Zamora',
   'Zimmerman');
-echo "# Domain : "; $domain = trim(fgets(STDIN));
-echo "# How many? : "; $brp = trim(fgets(STDIN));
+echo "# Domain (str) : "; $domain = trim(fgets(STDIN));
+echo "# How many? (int) : "; $brp = trim(fgets(STDIN));
 $def_str = '"First Name [Required]","Last Name [Required]","Email Address [Required]","Password [Required]","Password Hash Function [UPLOAD ONLY]","Org Unit Path [Required]"';
 $pass   = "Password333";
 $format = $def_str.PHP_EOL;
